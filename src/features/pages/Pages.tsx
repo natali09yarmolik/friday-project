@@ -7,8 +7,6 @@ import {PasswordRecovery} from "../../pageComponents/passwordRecovery/PasswordRe
 import {Test} from "../../pageComponents/test/test";
 import React from "react";
 
-
-
 export const PATH = {
     register: '/register',
     login: '/login',
