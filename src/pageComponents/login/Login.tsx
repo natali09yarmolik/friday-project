@@ -6,5 +6,6 @@ export const Login = () => {
         <div className={s.login}>
             <div>I'm page Login</div>
         </div>
+
     )
 }

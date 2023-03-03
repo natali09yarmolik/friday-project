@@ -8,6 +8,7 @@ import {Test} from "../../pageComponents/test/test";
 import React from "react";
 
 
+
 export const PATH = {
     register: '/register',
     login: '/login',
@@ -20,15 +21,15 @@ export const Pages = () => {
     return (
         <div>
             <Routes>
-                    <Route path='/' element={<Login/>}/>
-                    <Route path={'login'} element={<Login/>}/>
-                    <Route path={'register'} element={<Register/>}/>
-                    <Route path={'profile'} element={<Profile/>}/>
-                    <Route path={'passwordRecovery'} element={<PasswordRecovery/>}/>
-                    <Route path={'test'} element={<Test/>}/>
-                    <Route path='404' element={<Error/>}/>
-                    <Route path='*' element={<Navigate to={'/404'}/>}/>
-             </Routes>
-       </div>
+                <Route path='/' element={<Login/>}/>
+                <Route path={'login'} element={<Login/>}/>
+                <Route path={'register'} element={<Register/>}/>
+                <Route path={'profile'} element={<Profile/>}/>
+                <Route path={'passwordRecovery'} element={<PasswordRecovery/>}/>
+                <Route path={'test'} element={<Test/>}/>
+                <Route path='404' element={<Error/>}/>
+                <Route path='*' element={<Navigate to={'/404'}/>}/>
+            </Routes>
+        </div>
     )
 }
